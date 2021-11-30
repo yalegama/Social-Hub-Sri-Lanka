@@ -3,6 +3,9 @@ import { makeStyles } from "@material-ui/styles";
 import React from "react";
 
 const useStyles=makeStyles((theme)=>({
+    appBar:{
+        position:'statick'
+    },
     logo:{
         color:'orange'
     },
@@ -10,7 +13,7 @@ const useStyles=makeStyles((theme)=>({
 
 function Header(){
     const classes=useStyles();
-    return<AppBar>
+    return<AppBar className={classes.appBar}>
         <Toolbar>
             <Typography
             className={classes.logo}
