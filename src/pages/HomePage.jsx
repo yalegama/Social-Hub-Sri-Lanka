@@ -12,6 +12,16 @@ const useStyles=makeStyles((theme)=>({
     title:{
         textAlign:"center"
     },
+    grid3:{
+        backgroundColor:"red",
+        [theme.breakpoints.down('md')]:{
+            backgroundColor:'blue'
+        },
+        display:'none',
+        [theme.breakpoints.up('md')]:{
+            display:'none'
+        }
+    }
 
 }))
 
@@ -21,9 +31,9 @@ function HomePage(){
         <div>
             <Header/>
             <Grid container className={classes.container}>
-                <Grid item md={3} xs={4}> <LeftBar/> </Grid>
+                <Grid item md={3} xs={2}> <LeftBar/> </Grid>
                 <Grid item md={5} xs={7}> <Feed/> </Grid>
-                <Grid item md={4} xs={1}> <RightBar/> </Grid>
+                <Grid item md={4} xs={3}> <RightBar/> </Grid>
             </Grid>
         </div>
     )
