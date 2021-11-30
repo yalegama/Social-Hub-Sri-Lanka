@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Grid, makeStyles, Typography } from '@material-ui/core'
+import { Button, Card, CardContent, CardMedia, Grid, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 
 const useStyles=makeStyles((theme)=>({
@@ -27,7 +27,15 @@ function Post() {
                 <CardContent md={7}>
                     <Typography>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quaerat esse dolores, autem officiis id numquam asperiores sapiente nobis eaque pariatur architecto maxime quidem, ut repudiandae magni provident et?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam cupiditate et veniam. Ab quod aperiam odio asperiores tempora dicta esse labore omnis. Quae totam pariatur quo, itaque esse eaque nostrum?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus libero nisi placeat soluta dolores. At amet magni perspiciatis cumque asperiores dolorem. Quam corporis praesentium obcaecati error ea, eos ab vero.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit blanditiis mollitia placeat officia necessitatibus quos ducimus, accusantium error velit beatae deserunt cum, quidem saepe corporis quis at praesentium! Cupiditate, repellendus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore pariatur voluptatem veniam fugiat, delectus rerum nulla repellat eligendi dolorem debitis? Magnam quis suscipit, hic in rem neque provident fugit a?
                     </Typography>
+                    <Button
+                    variant="contained"
+                    color="primary"
+                    >Read More</Button>
                 </CardContent>
                 </Grid>
             </Card>

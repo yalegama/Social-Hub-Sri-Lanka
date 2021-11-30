@@ -32,8 +32,8 @@ function HomePage(){
             <Header/>
             <Grid container className={classes.container}>
                 <Grid item md={2} xs={3}> <LeftBar/> </Grid>
-                <Grid item md={8} xs={7}> <Feed/> </Grid>
-                <Grid item md={2} xs={3}> <RightBar/> </Grid>
+                <Grid item md={10} xs={7}> <Feed/> </Grid>
+                <Grid item  xs={3}>  </Grid>
             </Grid>
         </div>
     )

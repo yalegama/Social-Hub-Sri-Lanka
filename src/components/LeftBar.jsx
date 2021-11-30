@@ -1,5 +1,5 @@
 import { Typography } from "@material-ui/core";
-import { ChildFriendly, ChildFriendlySharp, Home, LocalDiningOutlined, Mail, MobileFriendly, Notifications, Web } from "@material-ui/icons";
+import { ChildFriendly, Home, LocalDiningOutlined, Mail, MobileFriendly, Notifications, Web } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
 
