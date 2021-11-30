@@ -5,7 +5,6 @@ import React from 'react'
 const useStyles=makeStyles((theme)=>({
     appBar:{
         display:'flex',
-        justifyContent:'center',
         backgroundColor:"#00008B"
     },
 logo1:{

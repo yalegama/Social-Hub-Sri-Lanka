@@ -17,11 +17,13 @@ const useStyles=makeStyles((theme)=>({
         marginLeft:40,
     },
     leftBarIcon:{
-        color:'white'
+        color:'white',
+        cursor:'pointer'
     },
     text:{
         color:"#ffffff",
         marginLeft:30,
+        cursor:'pointer',
         display:'block',
     }
 }))
