@@ -7,7 +7,7 @@ import RightBar from "../components/RightBar";
 
 const useStyles=makeStyles((theme)=>({
     container:{
-        paddingTop:70
+        paddingTop:64
     },
     title:{
         textAlign:"center"
@@ -31,7 +31,7 @@ function HomePage(){
         <div>
             <Header/>
             <Grid container className={classes.container}>
-                <Grid item md={3} xs={2}> <LeftBar/> </Grid>
+                <Grid item md={2} xs={2}> <LeftBar/> </Grid>
                 <Grid item md={5} xs={7}> <Feed/> </Grid>
                 <Grid item md={4} xs={3}> <RightBar/> </Grid>
             </Grid>
